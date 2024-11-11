@@ -1,0 +1,19 @@
+How to Install on Linux Machine
+
+Prerequisites:
+1. Package conky: sudo apt install conky
+
+Steps:
+1. Clone this repository: git clone https://github.com/bydzen/conky.git
+2. Enter the directory: cd conky/
+3. Create conky directory config and move main file: mkdir -p ~/.config/conky/ && mv bydzen.conkyrc ~/.config/conky/
+4. Test & run the config file: conky -c "~/.config/conky/bydzen.conkyrc"
+
+Autostart:
+1. Create bash file: echo "sleep 5 && conky -c \"~/config/conky/bydzen.conkyrc\"" > ~/.config/conky/bydzen.conkyrc.sh
+2. Make executable: chmod +x ~/.config/conky/bydzen.conkyrc.sh
+3. Create autostart make sure target to the bash executable file.
+
+More conky config documentation at https://conky.cc/
+
+Enjoy.
