@@ -72,6 +72,8 @@ conky.config = {
     color1 = '#ffffff',         -- custom color applied
 };
 
+    -- The actual display
+
 conky.text = [[
 ${color1}${voffset 4}${font jetbrains mono:size=24}${alignr}${time %l}:${time %M} ${time %p}${font}${color}
 ${color1}${voffset 4}${font jetbrains mono:size=10}${alignr}${time %A} ${time %B} ${time %e}, ${time %Y}${font}${color}
