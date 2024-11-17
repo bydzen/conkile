@@ -20,7 +20,7 @@ conky.config = {
     minimum_width = 350,        -- minimum height of window
     maximum_width = 350,        -- maximum height of window
 
-    -- Graphical
+    -- Graphic
 
     border_inner_margin = 10,           -- margin between border and text
     border_outer_margin = 5,            -- margin between border and edge of window
@@ -39,7 +39,7 @@ conky.config = {
     draw_outline = false,               -- draw outline
     stippled_borders = 0,               -- dashing the border
 
-    -- Textual
+    -- Text
 
     extra_newline = false,          -- extra newline at the end - for asesome's wiboxes
     format_human_readable = true,   -- KiB, MiB rather then number of bytes
@@ -55,7 +55,7 @@ conky.config = {
     use_xft = true,                 -- xft font - anti-aliased font
     xftalpha = 1,                   -- alpha of the xft font - between 0-1
 
-    -- Windows
+    -- Window
 
     own_window = true,                                                      -- create your own window to draw
     own_window_argb_value = 100,                                            -- real transparency - composite manager required 0-255
@@ -66,13 +66,11 @@ conky.config = {
     own_window_title = 'system_conky',                                      -- set the name manually  - default conky "hostname"
     own_window_type = 'normal',                                             -- if own_window true options are: normal/override/dock/desktop/panel
 
-    -- Colours
+    -- Color
 
     default_color = '#ffffff',  -- default color and border color
     color1 = '#ffffff',         -- custom color applied
 };
-
-    -- The actual display
 
 conky.text = [[
 ${color1}${voffset 4}${font jetbrains mono:size=24}${alignr}${time %l}:${time %M} ${time %p}${font}${color}
