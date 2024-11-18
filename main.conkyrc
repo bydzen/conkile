@@ -68,8 +68,8 @@ conky.config = {
 
     -- Colours
 
-    default_color = '#fbfbfb',  -- default color and border color
-    color1 = '#fbfbfb',         -- custom color applied
+    default_color = '#ffffff',  -- default color and border color
+    color1 = '#ffffff',         -- custom color applied
 };
 
 conky.text = [[
